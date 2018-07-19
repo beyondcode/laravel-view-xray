@@ -34,7 +34,7 @@ class Xray
 
         $file = tempnam(sys_get_temp_dir(), $view->name());
 
-        $re = '/(@section\(([^))]+)\))(.*?)(@endsection|@show|@overwrite)/s';
+        $re = '/(@section\(([^))]+)\)+)(.*?)(@endsection|@show|@overwrite)/s';
         $viewContent = preg_replace_callback($re, function ($matches) use ($view) {
             ++$this->viewId;
             $sectionName = str_replace(["'", '"'], '', $matches[2]);
