@@ -1,10 +1,10 @@
-<?php return '<!--XRAY START 1 example2 /home/travis/build/beyondcode/laravel-xray/tests/views/example2.blade.php-->
+<?php return '<!--XRAY START 1 example2 /home/travis/build/beyondcode/laravel-view-xray/tests/views/example2.blade.php-->
 
 
-<!--XRAY START 1 example2@section:title, trans(main.title /home/travis/build/beyondcode/laravel-xray/tests/views/example2.blade.php-->
+<!--XRAY START 1 example2@section:title, trans(main.title /home/travis/build/beyondcode/laravel-view-xray/tests/views/example2.blade.php-->
 
 <!--XRAY END 1-->
-<!--XRAY START 2 layout2 /home/travis/build/beyondcode/laravel-xray/tests/views/layout2.blade.php-->
+<!--XRAY START 2 layout2 /home/travis/build/beyondcode/laravel-view-xray/tests/views/layout2.blade.php-->
 <html>
 <head>
 	<title>main.title</title>
@@ -615,7 +615,7 @@
 .xray-icon-github:before { content: \'\\f056\'; } /* \'\' */
 .xray-icon-columns:before { content: \'\\f0db\'; } /* \'\' */
 .xray-icon-doc:before { content: \'📄\'; } /* \'\\1f4c4\' */
-.xray-icon-search:before { content: \'🔍\'; } /* \'\\1f50d\' */</style><!--XRAY START 3 xray::xray /home/travis/build/beyondcode/laravel-xray/src/../resources/views/xray.blade.php-->
+.xray-icon-search:before { content: \'🔍\'; } /* \'\\1f50d\' */</style><!--XRAY START 3 xray::xray /home/travis/build/beyondcode/laravel-view-xray/src/../resources/views/xray.blade.php-->
 <div id="xray-bar" style="display:none">
     <div id="xray-bar-controller-path">
         <span class="xray-bar-btn xray-bar-controller xray-icon-flash">
@@ -624,7 +624,7 @@
         </span>
         <span class="xray-bar-btn xray-bar-layout xray-icon-columns">
             <b></b>
-            /home/travis/build/beyondcode/laravel-xray/tests/views/example2.blade.php
+            /home/travis/build/beyondcode/laravel-view-xray/tests/views/example2.blade.php
         </span>
         <span class="xray-bar-btn xray-bar-view xray-icon-doc">
             example2
