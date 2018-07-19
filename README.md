@@ -106,7 +106,7 @@ If you discover any security related issues, please email marcel@beyondco.de ins
 
 This project is inspired by [xray-rails](https://github.com/brentd/xray-rails).
 
-- [Marcel Pociot](https://github.com/:author_username)
+- [Marcel Pociot](https://github.com/mpociot)
 - [All Contributors](../../contributors)
 
 ## License
