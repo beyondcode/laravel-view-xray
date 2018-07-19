@@ -34,4 +34,16 @@ class XrayTest extends TestCase
 
         $this->get('/')->assertJson($data);
     }
+
+    /** @test */
+    public function it_adds_xray_when_using_parenthesis_on_sections() 
+    {
+        Route::get('/', function() {
+            return view('example2');
+        });
+        
+        $response = $this->get('/');
+        
+        $this->assertMatchesSnapshot($response->getContent());
+    }
 }
