@@ -1,0 +1,3 @@
+<html>
+@yield('content')
+</html>
