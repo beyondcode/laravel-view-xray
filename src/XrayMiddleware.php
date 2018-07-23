@@ -42,7 +42,7 @@ class XrayMiddleware
             || $response->getContent() === false
         ) {
             return $response;
-        } elseif (is_null($response->exception)) {
+        } elseif (is_null($response->exception) && !is_null($this->xray->getBaseView())) {
             // Modify the response to add the Debugbar
             $this->injectXrayBar($response);
         }
