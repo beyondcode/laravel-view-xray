@@ -5,7 +5,7 @@ return [
     /*
      * Determines if the Xray package should be enabled.
      */
-    'enabled' => env('XRAY_ENABLED', true),
+    'enabled' => env('XRAY_ENABLED', false),
 
     /*
      * If you want to exclude certain views from being processed by Xray,
