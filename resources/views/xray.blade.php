@@ -2,7 +2,7 @@
     <div id="xray-bar-controller-path">
         <span class="xray-bar-btn xray-bar-controller xray-icon-flash">
             <b></b>
-            {{ array_get($routeInformation, 'controller', '-')}}
+            {{ \Illuminate\Support\Arr::get($routeInformation, 'controller', '-')}}
         </span>
         <span class="xray-bar-btn xray-bar-layout xray-icon-columns">
             <b></b>
