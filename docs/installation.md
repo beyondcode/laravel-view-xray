@@ -2,7 +2,11 @@
 title: Installation
 order: 1
 ---
+# Xray - Take a look into your Laravel views
+
 ![Example output](https://beyondco.de/github/xray/xray.png)
+
+When your Laravel project grows, so do the Laravel views. Sometimes it might be hard to figure out, which part of the output HTML was rendered using which template. With this package, you can take a peek into your Laravel views and find out which template is responsible for which part of the output HTML.
 
 # Installation
 
