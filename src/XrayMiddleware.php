@@ -2,6 +2,7 @@
 
 namespace BeyondCode\ViewXray;
 
+use BeyondCode\ViewXray\Events\InjectedXrayBar;
 use Closure;
 
 class XrayMiddleware
@@ -114,5 +115,7 @@ class XrayMiddleware
         // Update the new content and reset the content length
         $response->setContent($content);
         $response->headers->remove('Content-Length');
+
+        event(new InjectedXrayBar($response));
     }
 }
